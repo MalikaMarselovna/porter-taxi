@@ -49,6 +49,8 @@
 	.cont {
 		font-size: 16px;
 	}
+	.menu__box li a {
+		color: #e28710;}
 
 	#menu__toggle {
 		opacity: 0;
@@ -117,7 +119,7 @@
 		margin: 0;
 		padding: 80px 0;
 		list-style: none;
-		background: rgba(18, 18, 18, .8);
+		background: rgba(254, 254, 254, 0.8);
 		text-shadow: 1px 1px 1px #5b3737;
 		transition-duration: .25s;
 	}
@@ -150,14 +152,42 @@
 		font-size: 40px;
 		width: 80%;
 	}
+	.main_in{
+		flex-direction: column;
+	}
+	.main_right,
+	.main_left{
+		width: 100%;
+		margin-top: -10px;
+	}
+	.main_tit {
+		border-bottom: 2px solid #ce5a0e;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 150px;
+		font-size: 50px;
+		width: 80%;
 
-
+	}
+	
 
 }
 
 @media screen and (max-width: 850px) {
 	.container {
 		max-width: 810px;
+	}
+	.contacts{
+		max-width: 300px;
+	}
+	.cont{
+		font-size: 15px;
+	}
+	.med {
+		margin-right: 8px;
+		width: 20px;
+		height: 20px;
 	}
 
 	.advan_card {
@@ -176,11 +206,6 @@
 	.container {
 		max-width: 710px;
 	}
-
-	.cont {
-		font-size: 15px;
-	}
-
 	.med {
 		margin-right: 8px;
 		width: 25px;
@@ -222,26 +247,10 @@
 	}
 }
 
-	.med {
-		margin-right: 8px;
-		width: 20px;
-		height: 20px;
-	}
-
-	.cont {
-		font-size: 13px;
-	}
 
 	.logo img {
 		width: 130px;
 	}
-
-	.contacts {
-		display: block;
-		justify-content: end;
-
-	}
-
 	.flip {
 		position: relative;
 		display: inline-block;
@@ -253,6 +262,10 @@
 		width: 100%;
 		font-size: 18px;
 	}
+	.footer_copy{
+		font-size: 12px;
+	}
+	
 
 }
 
@@ -260,24 +273,16 @@
 	.container {
 		max-width: 480px;
 	}
-
-	.cont {
-		font-size: 10px;
-	}
-
 	.med {
 		margin-right: 8px;
 		width: 20px;
 		height: 20px;
 	}
-
-	.contacts {
-		gap: 20px;
-		justify-content: flex-end;
-	}
-
 	.logo img {
 		width: 110px;
+	}
+	.btn{
+		margin-left: 30%;
 	}
 }
 
@@ -290,3 +295,12 @@
 		gap: 5px;
 	}
 }
+@media screen and (max-width: 400px) {
+	.container {
+		max-width: 100%;
+	}
+	.btn{
+		margin-left: 25%;
+	}
+}
+	
