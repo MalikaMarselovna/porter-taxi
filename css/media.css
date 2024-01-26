@@ -196,7 +196,12 @@
 
 @media screen and (max-width: 680px) {
 	.container {
-		max-width: 510px;
+		max-width: 610px;
+	}
+	.why {
+		font-size: 14px;
+		width: 100%;
+
 	}
 
 	.advan_card {
@@ -209,34 +214,11 @@
 	}
 	
 .flip {
-	transition: 5s;
-	
-	position: relative;
-	display: inline-block;
-	margin-right: 2px;
-	margin-bottom: 1em;
 	width: 300px;
 
 	>.front,
 	>.back {
-		display: block;
-		color: white;
-		background-size: cover !important;
-		background-position: center !important;
 		height: 230px;
-		padding: 1em 2em;
-		background: #e5710c;
-		border-radius: 10px;
-		text-align: center;
-		padding-top: 50px;
-
-		p {
-			text-align: left;
-			font-size: 0.9125rem;
-			line-height: 160%;
-			color: #f5f2f2;
-			margin-top: 30px;
-		}
 	}
 }
 
@@ -267,12 +249,16 @@
 		margin-bottom: 1em;
 		width: 400px;
 	}
+	.sub_txt{
+		width: 100%;
+		font-size: 18px;
+	}
 
 }
 
 @media screen and (max-width: 560px) {
 	.container {
-		max-width: 420px;
+		max-width: 480px;
 	}
 
 	.cont {
