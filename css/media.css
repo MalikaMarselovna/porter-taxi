@@ -178,9 +178,6 @@
 	.container {
 		max-width: 810px;
 	}
-	.contacts{
-		max-width: 300px;
-	}
 	.cont{
 		font-size: 15px;
 	}
@@ -289,10 +286,6 @@
 @media screen and (max-width: 450px) {
 	.container {
 		max-width: 100%;
-	}
-
-	.contacts {
-		gap: 5px;
 	}
 }
 @media screen and (max-width: 400px) {
